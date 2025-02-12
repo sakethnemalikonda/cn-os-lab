@@ -54,3 +54,23 @@ int main()
     receiver();
         return 0;
 }
+
+
+Example Input/Output:
+
+Enter data to be transmitted: 110101000
+
+ Enter the Generating polynomial: 001
+
+----------------------------------------
+ Data padded with n-1 zeros : 11010100000
+----------------------------------------
+CRC or Check value is : 11
+----------------------------------------
+ Final data to be sent : 11010100011
+----------------------------------------
+Enter the received data: 11010100011
+
+-----------------------------
+Data received: 11010100011
+No error detected
