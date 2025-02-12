@@ -27,3 +27,19 @@ void main() {
     }
     printf(" 01111110\n"); 
 }
+
+
+How It Works:
+
+Reads an n-bit input stream from the user.
+Checks for five consecutive 1s, then inserts a 0 after them.
+Displays the stuffed data with flags (01111110).
+    
+Example Input/Output:
+
+Enter the number of bits: 10
+Enter the bit stream (0s and 1s only):
+1 1 1 1 1 0 1 1 1 1
+Data after Bit Stuffing: 01111110 111110101111 01111110
+    
+The 0 is stuffed after every five consecutive 1s.
