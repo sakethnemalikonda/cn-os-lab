@@ -21,3 +21,9 @@ int main() {
     printf("\nDLESTX %s DLEETX\n", c);
     return 0;
 }
+
+
+Example Input/Output:
+
+Enter the data: hello esc world d1e
+DLESTX hello escesc world escd1e DLEETX
