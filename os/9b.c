@@ -21,7 +21,8 @@ printf("cid=%d,global=%d,local=%d\n",getpid(),global,local);
 exit(0);
 }}
 
-output:-
+Example Input/Output:
+
 student@202-28:~/5x0$ cc 9b.c
 [1]+  Killed                  gedit 9b.c
 student@202-28:~/5x0$ ./a.out
