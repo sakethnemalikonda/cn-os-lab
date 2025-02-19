@@ -21,7 +21,8 @@ printf("I am the parent process.");
 return 0;
 }
 
-output:-
+Example Input/Output:
+
 student@202-28:~/5x0$ cc 9c.c
 student@202-28:~/5x0$ ./a.out
 Hello World!
