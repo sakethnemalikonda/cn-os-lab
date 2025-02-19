@@ -26,6 +26,8 @@ printf("\n Avg, Waiting Time=%f",awt);
 printf("\n Avg, Turn around time=%f",atat);
 }
 
+Example Input/Output:
+
 student@202-28:~/5x0$ cc 10a.c
 student@202-28:~/5x0$ ./a.out
 Enter no.of processes:4
