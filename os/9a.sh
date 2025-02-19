@@ -12,7 +12,7 @@ done
 fi
 echo factorial of $a = $fact
 
-output:-
+Example Input/Output:
 
 student@202-28:~/5x0$ gedit 9a.sh
 student@202-28:~/5x0$ sh 9a.sh
