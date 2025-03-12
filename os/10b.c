@@ -44,3 +44,28 @@ atat=(float)ttat/n;
 printf("\n Avg.Waiting Time=%f",awt);
 printf("\n Avg.Turn around time=%f",atat);
 }
+
+Output:-
+
+  cc 10b.c
+  ./a.out
+Enter no.of processes: 3
+
+ Enter burst times: 4
+3
+5
+
+ Enter PID: 1
+2
+3
+
+ Enter Priorities: 3
+1
+2
+
+ PID PRIORITY 	 BT 	 WT 	 TAT
+2	1	3	0	3
+3	2	5	3	8
+1	3	4	8	12
+ Avg.Waiting Time=3.666667
+ Avg.Turn around time=7.666667
