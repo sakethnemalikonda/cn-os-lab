@@ -89,3 +89,22 @@ int main() {
     dijkstra(graph, source, vertices);
     return 0;
 }
+
+Example Input/Output:
+
+Input the number of vertices: 3
+Input the adjacency matrix for the graph (use 99999 for infinity):
+1
+1
+0
+1
+1
+1
+0
+0
+1
+Input the source vertex: 1
+Vertex 	Distance from Source
+0 	1
+1 	0
+2 	1
