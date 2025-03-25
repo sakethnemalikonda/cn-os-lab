@@ -27,3 +27,19 @@ void main() {
 
     getchar();  // Wait for user input to exit the program
 }
+
+Example Input/Output:
+
+Number of frames is 3
+
+Sending frame 1
+ACK for frame 1
+Sending frame 2 - No ACK received, resending frame 2
+
+Resending frame 2
+ACK for frame 2
+Sending frame 3 - No ACK received, resending frame 3
+
+Resending frame 3
+ACK for frame 3
+End of Stop-and-Wait protocol
