@@ -26,3 +26,21 @@ int main()
 
     return 0;
 }
+
+Example Input/Output:
+
+Enter window size: 5
+
+Enter number of frames to transmit: 4
+
+Enter 4 frames: 1
+2
+3
+4
+
+With sliding window protocol the frames will be sent in the following manner (assuming no corruption of frames)
+
+After sending 5 frames at each stage sender waits for acknowledgement sent by the receiver
+
+1 2 3 4 
+Acknowledgement of above frames sent is received by sender
