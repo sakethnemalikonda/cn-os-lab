@@ -42,3 +42,31 @@ printf("\n %d \t %d \t %d \t %d \t\n",i,bt1[i],wt[i],tat[i]);
 printf("\n The average Waiting Time=%f",awt);
 printf("\n The average Turn around Time=%f",atat);
 }
+
+Example Input/Output:
+
+student@202-28:~/5x0$ cc 11b.c
+student@202-28:~/5x0$ ./a.out
+Enter the number of Processes 
+4
+
+ Enter the Timeslice 
+5
+
+ Enter the Burst Time for the process10
+15
+20
+25
+
+ PID 	 BT 	 WT 	 TAT
+
+ 1 	   10 	 15 	 25 	
+
+ 2 	   15 	 30 	 45 	
+
+ 3 	   20 	 40 	 60 	
+
+ 4 	   25 	 45 	 70 	
+
+ The average Waiting Time=32.500000
+ The average Turn around Time=50.000000
