@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main(){
 int no_of_frames,no_of_pages,frames[10],pages[30],temp[10],flag1,flag2,flag3,i,j,k,pos,max,faults=0;
-printf("\nEnter the number of Frames:");
+printf("Enter the number of Frames:");
 scanf("%d",&no_of_frames);
-printf("\nEnter the number of Pages:");
+printf("Enter the number of Pages:");
 scanf("%d",&no_of_pages);
-printf("\nEnter the reference string:");
+printf("Enter the reference string:");
 for(i=0;i<no_of_pages;++i){
 scanf("%d",&pages[i]);
 }
@@ -66,6 +66,6 @@ for(j=0;j<no_of_frames;++j){
 printf("%d\t",frames[j]);
 }
 }
-printf("total page faults is %d",faults);
+printf("\n\nTotal Page Faults is %d",faults);
 return 0;
 }
