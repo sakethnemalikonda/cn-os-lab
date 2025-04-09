@@ -72,6 +72,7 @@ Example Input/Output:
 
 student@202-28:~/5x0$ cc 14b.c
 student@202-28:~/5x0$ ./a.out
+ 
 Enter the number of Frames : 3
 
 Enter number of reference string :10
