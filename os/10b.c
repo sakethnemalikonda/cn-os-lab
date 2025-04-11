@@ -45,7 +45,7 @@ printf("\n Avg.Waiting Time=%f",awt);
 printf("\n Avg.Turn around time=%f",atat);
 }
 
-Output:-
+Example Input/Output:
 
   cc 10b.c
   ./a.out
