@@ -44,7 +44,7 @@ printf("\nAvg. Waiting Time=%f",awt);
 printf("\nAvg. Turn around time=%f",atat);
 }
 
-Output:-
+Example Input/Output:
 
 cc 10b.c
   
