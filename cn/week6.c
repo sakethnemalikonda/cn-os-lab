@@ -37,3 +37,38 @@ void adj(int k) {
 }
 
 Example Input/Output:
+
+Enter number of nodes: 5
+Enter adjacency matrix:
+Is there a connection from 1 to 1 (1/0)? 0
+Is there a connection from 1 to 2 (1/0)? 1
+Is there a connection from 1 to 3 (1/0)? 1
+Is there a connection from 1 to 4 (1/0)? 0
+Is there a connection from 1 to 5 (1/0)? 0
+Is there a connection from 2 to 1 (1/0)? 1
+Is there a connection from 2 to 2 (1/0)? 0
+Is there a connection from 2 to 3 (1/0)? 1
+Is there a connection from 2 to 4 (1/0)? 1
+Is there a connection from 2 to 5 (1/0)? 0
+Is there a connection from 3 to 1 (1/0)? 1
+Is there a connection from 3 to 2 (1/0)? 1
+Is there a connection from 3 to 3 (1/0)? 0
+Is there a connection from 3 to 4 (1/0)? 0
+Is there a connection from 3 to 5 (1/0)? 0
+Is there a connection from 4 to 1 (1/0)? 0
+Is there a connection from 4 to 2 (1/0)? 1
+Is there a connection from 4 to 3 (1/0)? 0
+Is there a connection from 4 to 4 (1/0)? 0
+Is there a connection from 4 to 5 (1/0)? 1
+Is there a connection from 5 to 1 (1/0)? 0
+Is there a connection from 5 to 2 (1/0)? 0
+Is there a connection from 5 to 3 (1/0)? 0
+Is there a connection from 5 to 4 (1/0)? 1
+Is there a connection from 5 to 5 (1/0)? 0
+Enter root node: 2
+
+Adjacent nodes of root node 2:
+1	3	4	
+
+Non-adjacent nodes of root node 2:
+5
