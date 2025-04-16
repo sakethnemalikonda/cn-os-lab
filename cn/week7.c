@@ -22,3 +22,5 @@ void main() {
         scanf(" %c", &op);  // Added a space before %c to clear the newline character from previous input
     } while (op == 'y' || op == 'Y');
 }
+
+Example Input/Output:
