@@ -24,3 +24,35 @@ void main() {
 }
 
 Example Input/Output:
+
+How many stations: 4
+
+ Enter status of stations
+
+ Enter status of station 1: 1
+
+ Enter status of station 2: 0
+
+ Enter status of station 3: 1
+
+ Enter status of station 4: 0
+
+ Station 1 is ready to transmit
+
+ Station 3 is ready to transmit
+
+ Repeat? Press Y: Y
+
+ Enter status of stations
+
+ Enter status of station 1: 0
+
+ Enter status of station 2: 0
+
+ Enter status of station 3: 1
+
+ Enter status of station 4: 0
+
+ Station 3 is ready to transmit
+
+ Repeat? Press Y: N
