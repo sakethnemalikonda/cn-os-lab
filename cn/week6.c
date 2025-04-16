@@ -35,3 +35,5 @@ void adj(int k) {
     }
     printf("\n");
 }
+
+Example Input/Output:
