@@ -72,3 +72,18 @@ Adjacent nodes of root node 2:
 
 Non-adjacent nodes of root node 2:
 5
+
+Another Example:-
+
+Enter number of nodes: 2
+Enter adjacency matrix:
+Is there a connection from 1 to 1 (1/0)? 1
+Is there a connection from 1 to 2 (1/0)? 0
+Is there a connection from 2 to 1 (1/0)? 1
+Is there a connection from 2 to 2 (1/0)? 1
+Enter root node: 2
+
+Adjacent nodes of root node 2:
+1	2	
+
+Non-adjacent nodes of root node 2:
