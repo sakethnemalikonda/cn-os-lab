@@ -25,3 +25,21 @@ printf("\nblocks occupied:");
 for(i=0;i<b[x-1];i++)
 printf("%4d",c[x-1][i]);
 }
+
+Example Input/Output:
+
+student@202-28:~/5x0$ cc 12a.c
+student@202-28:~/5x0$ ./a.out
+Enter no.of files:2
+Enter no. of blocks occupied by file14
+Enter the starting block of file12
+Enter no. of blocks occupied by file210
+Enter the starting block of file25
+Filename	Start block	length
+1	 2 	4
+2	 5 	10
+Enter file name:2
+
+File name is:2
+length is:10
+blocks occupied:   5   6   7   8   9  10  11  12  13  14
