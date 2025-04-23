@@ -27,3 +27,30 @@ printf("\nBlocks occupied are:");
 for(j=0;j<m[x-1];j++)
 printf("%4d",b[x-1][j]);
 }
+
+Example Input/Output:
+
+student@202-28:~/5x0$ cc 12c.c
+student@202-28:~/5x0$ ./a.out
+
+Enter no. of files:2
+
+Enter index block of file1:2
+
+Enter length of file1:5
+enter blocks of file1:2 3 5 6 8
+
+Enter index block of file2:13
+
+Enter length of file2:8
+enter blocks of file2:13 25 42 33 57 65 72 84
+
+File	 Index	Length
+1	2	5
+2	13	8
+
+Enter file name:2
+
+file name is:2
+Index is:13
+Blocks occupied are:  13  25  42  33  57  65  72  84
