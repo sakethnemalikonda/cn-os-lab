@@ -37,3 +37,56 @@ m=badd[i]+ladd;
 printf("\nmapped physical address is=%d",m);
 printf("\nthe value is %d ",val[i][ladd]);
 } }}
+
+Example Input/Output:
+
+student@202-28:~/5x0$ cc 13b.c
+student@202-28:~/5x0$ ./a.out
+Enter the size of the segment table:3
+
+Enter infor about segment 1
+Enter base address:2
+
+Enter the limit:3
+
+Enter 2 address values:11
+
+Enter 3 address values:12
+
+Enter 4 address values:13
+
+Enter infor about segment 2
+Enter base address:22
+
+Enter the limit:4
+
+Enter 22 address values:33
+
+Enter 23 address values:44
+
+Enter 24 address values:55
+
+Enter 25 address values:66
+
+Enter infor about segment 3
+Enter base address:75
+
+Enter the limit:2
+
+Enter 75 address values:88
+
+Enter 76 address values:99
+
+
+****SEGMENT TABLE****
+seg.no	base	limit
+1	2	3
+2	22	4
+3	75	2
+
+Enter segment no.::1
+
+Enter the logical address:2
+
+mapped physical address is=24
+the value is 55
