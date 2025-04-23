@@ -28,3 +28,26 @@ for(j=0;j<f[i].size-1;j++)
 printf("%d--->",f[i].block[j]);
 printf("%d\n",f[i].block[j]);
 }}
+
+Example Input/Output:
+
+student@202-28:~/5x0$ cc 12b.c
+student@202-28:~/5x0$ ./a.out
+Enter no. of files:2
+Enter file name:krishna
+Enter starting block:2
+Enter no.of blocks:6
+Enter block numbers:7
+11
+14
+19
+22
+Enter file name:kumar
+Enter starting block:33
+Enter no.of blocks:4
+Enter block numbers:47
+54
+67
+File	start	size	block
+krishna	2	6	2--->7--->11--->14--->19--->22
+kumar	33	4	33--->47--->54--->67
