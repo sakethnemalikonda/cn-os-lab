@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main() {
     int a[30], b[50];
-    int i, j, n, c = 0, pos = 0, k = 0;
+    int i, n, c = 0, k = 0;
     printf("Enter the number of bits: ");
     scanf("%d", &n);
     printf("Enter the bit stream (0s and 1s only):\n");
