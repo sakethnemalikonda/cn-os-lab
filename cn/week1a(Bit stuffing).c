@@ -40,6 +40,6 @@ Example Input/Output:
 Enter the number of bits: 10
 Enter the bit stream (0s and 1s only):
 1 1 1 1 1 0 1 1 1 1
-Data after Bit Stuffing: 01111110 111110101111 01111110
+Data after Bit Stuffing: 01111110 11111001111 01111110
     
 The 0 is stuffed after every five consecutive 1s.
